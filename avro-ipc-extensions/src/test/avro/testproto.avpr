@@ -1,0 +1,23 @@
+{"namespace": "org.devzendo.avro.ipc",
+ "protocol": "TestProto",
+
+ "types": [
+     {"name": "Message", "type": "record",
+      "fields": [
+          {"name": "body", "type": "string"}
+      ]
+     }
+ ],
+
+ "messages": {
+     "handshake": {
+        "request": [],
+        "response": "null",
+        "one-way": true
+     },
+     "send": {
+         "request": [{"name": "message", "type": "Message"}],
+         "response": "string"
+     }
+ }
+}

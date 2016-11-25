@@ -1,0 +1,7 @@
+{"namespace": "org.devzendo.avro.ipc",
+ "protocol": "NoHandshake",
+
+
+ "messages": {
+ }
+}

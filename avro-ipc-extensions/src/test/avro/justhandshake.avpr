@@ -1,0 +1,11 @@
+{"namespace": "org.devzendo.avro.ipc",
+ "protocol": "JustHandshake",
+
+ "messages": {
+     "handshake": {
+        "request": [],
+        "response": "null",
+        "one-way": true
+     }
+ }
+}
