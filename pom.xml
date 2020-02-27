@@ -29,11 +29,9 @@
     </licenses>
 
     <scm>
-        <url>https://bitbucket.org/devzendo/avro-extensions</url>
-        <connection>scm:hg:https://bitbucket.org/devzendo/avro-extensions</connection>
-        <developerConnection>
-            scm:hg:https://bitbucket.org/devzendo/avro-extensions
-        </developerConnection>
+        <url>https://github.com/devzendo/avro-extensions.git</url>
+        <connection>scm:git:https://github.com/devzendo/avro-extensions.git</connection>
+        <developerConnection>scm:git:git@github.com:devzendo/avro-extensions.git</developerConnection>
     </scm>
 
     <developers>
